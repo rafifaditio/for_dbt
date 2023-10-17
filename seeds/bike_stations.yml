@@ -8,4 +8,5 @@ seeds:
         name: varchar
         status: varchar
         address: varchar
+        district: integer
         modified_date: timestamp
