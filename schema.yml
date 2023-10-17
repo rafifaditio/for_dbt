@@ -2,7 +2,7 @@
 version: 2
 
 models:
-  - name: daytime_visitor
+  - name: time_of_day_visitor
     description: "count monthly visitor"
     columns:
       - name: time_of_day
@@ -10,3 +10,10 @@ models:
         tests:
           - unique
           - not_null
+  - name: last_30_days_visitor
+    description: "count visitor based on district"
+    columns:
+      - name: district
+        description: "The primary key for this table"
+        tests:
+          - unique
