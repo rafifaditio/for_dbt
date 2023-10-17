@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: daytime_visitor
+    description: "count monthly visitor"
+    columns:
+      - name: time_of_day
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
