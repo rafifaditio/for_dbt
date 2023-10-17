@@ -1,0 +1,11 @@
+version: 2
+
+seeds:
+  - name: bike_stations
+    config:
+      column_types:
+        station_id: integer
+        name: varchar
+        status: varchar
+        address: varchar
+        modified_date: timestamp

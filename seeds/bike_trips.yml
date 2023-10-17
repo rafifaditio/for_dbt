@@ -1,0 +1,16 @@
+version: 2
+
+seeds:
+  - name: bike_trips
+    config:
+      column_types:
+        trip_id: integer
+        subscriber_type: varchar
+        bike_id: varchar
+        bike_type: varchar
+        start_time: timestamp
+        start_station_id: integer
+        start_station_name: varchar
+        end_station_id: integer
+        end_station_name: varchar
+        duration_minutes: integer
